@@ -4,6 +4,9 @@
     margin: 0;
     font-family:Arial,arial,helvetica;
 }
+#check{
+    display: none;
+}
 :root{
     --organe-rgb:rgb(255, 124, 0);
     --grey-color:#ededed;
@@ -33,6 +36,9 @@
     z-index: 999;
     padding: 20px 10%;
 }
+.header-menu{
+    display: none;
+}
 .logo{
     position: relative;
     font-size: 30px;
@@ -56,15 +62,15 @@
         width: 0;
     }
 }
-.nav a{
+.myID a{
     font-size: 18px;
     color: var(--grey-color);
     text-decoration: none;
     font-weight: 600;
     margin-left: 35px;
 }
-.nav a:hover,
-.nav a.active
+.myID a:hover,
+.myID a.active
 {
     color: var(--organe-rgb);
 }
@@ -320,9 +326,6 @@
     margin-right: 10px;
     width: 410px;
     height: 410px;
-
-
-
 }
 .img-circle span{
     position: absolute;
