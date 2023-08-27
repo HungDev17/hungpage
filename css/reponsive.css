@@ -1,0 +1,269 @@
+/* mobie : width < 720px */
+@media (max-width : 46.1875em){
+    .header{
+        width: 25em;
+        padding: 0 20px;
+    }
+    .elip{
+        position: absolute;
+        width: 48%;
+        height: 580px;
+        left: 0;
+        filter: blur(150px);
+        background: var(--organe-rgb);
+    }
+    .logo{
+        font-size: 20px;
+    }
+    #check::checked ~ label .myID{
+        right: 0;
+    }
+     .myID{
+        position: absolute;
+        display: block;
+        width: 90%;
+        top: 100%;
+        height: 90vh;
+        background-color: #ea7750;
+        text-align: center;
+        right: -100%;
+        transition: all .5s;
+    }
+    .myID a{
+        margin: 20px 0;
+        display: block;
+    }
+    .header-menu{
+        display: block;
+    }
+    .header-menu{
+        text-decoration: none;
+        color: var(--grey-color);
+        font-size: 20px;
+
+    }
+    .home-info{
+        display: block;
+        height: 560px;
+        width: 100%;
+        padding: 0 10%;
+    }
+    .home-content{
+        margin-top: 150px;
+        max-width: 600px;
+    }
+    .home-content h1{
+        font-size: 25px;
+    }
+    .home-content h1::before{
+        right: 35%;
+        width: 66%;
+        background:#efcaae;
+    
+    }
+    .home-content h3{
+        width: 245px;
+        position: relative;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    
+    .home-content .btn-box{
+        width: 181px;
+        height: 35px;
+    }
+    .home-content .btn-box::before{
+        background:#f6d0ae;
+    }
+    .btn-box a{
+        font-size: 15px;
+    }
+    .btn-box a:nth-child(2){
+        margin-left: 10px;
+    }
+    .icon2{
+        width: 200px;
+        height: 200px;
+        right: 25%;
+        top: 450px;
+        background: #FFC97D;
+        border-radius: 8px;
+    }
+    
+    .icon2 img{
+        position: absolute;
+        top: -77%;
+        right: 0%;
+        width: 100%;
+        z-index: 1;
+        border-radius: 8px;
+    }
+    .icon22{
+        width: 200px;
+        height: 200px;
+        right: 25%;
+        top: 450px;
+        background: #ea7750;
+        border-radius: 8px;
+    }
+    .iconHeart{
+        position: absolute;
+        top: 90px;
+        left: -70%;
+    }
+    .icon1-1{
+        width: 45.86px;
+        height: 45.33px;
+    }
+    .icon1-2{
+        width: 45px;
+        height: 45px;
+    }
+    .icon1-2 i{
+        font-size: 26px;
+    }
+    /* ________________________HOME ABOUT_________ */
+    .elip2{
+        width: 0;
+        height: 0;
+    }
+    .content-about{
+        display: block;
+        margin: 80px;
+        height: 800px;
+        
+    }
+    .home-about h1{
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .about-img{
+        width: 300px;
+        height: 300px;
+    }
+    .img-circle span{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#f06 , #3cf);
+        border-radius: 50%;
+        animation: rotate 2s linear infinite; 
+    
+    }
+    .about-img .img-circle{
+        margin-left: 15px;
+    }
+    .about-img .img-circle::after{
+        width: 250px;
+        height: 250px;
+    
+    }
+    .img-circle .image{
+        width: 250px;
+        height: 250px;
+    }
+    .image img{
+        max-width: 220px;
+    }
+    .content-about  h1{
+        padding-left: 35px;
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .info-img h2{
+        font-size: 15px;
+        padding-top: 69px;
+        padding-left: 10px;
+    }
+    .info-img ul{
+        font-weight: 600;
+        list-style: none;
+        font-size: 12px;
+        padding-left: 30px;
+        line-height: 30px;
+        color: var(--blue-color);
+        opacity: 0.8;
+    }
+    .info-img h4{
+        width: 140%;
+        font-size: 12px;
+        padding-top: 30px;
+        padding-left: 10px;
+        line-height: 30px;
+    }
+    /* --------------------------project----------------- */
+    .project h1{
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .project p{
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .project-content{
+        height: auto;
+
+    }
+    .pjt-webdemo{
+        margin-bottom: 32px;
+
+    }
+    .pjt-img img{
+        margin-left: 50px;
+        width: 70%;
+    }
+    .pjt-link{
+        text-align: center;
+    }
+    .pjt-link a{
+        font-size: 25px;
+        padding-left: 0;
+    }
+/* _------------------------contact---------------- */
+    .contact h1{
+        font-size: 25px;
+        padding-top: 130px;
+    }
+    .contact-content{
+        padding-top: 0;
+        display: flex;
+        height: auto;
+
+    }
+    .form {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .form h3{
+        font-size: 20px;
+    }
+    .form-1{
+        margin-left: 20px;
+    }
+
+    .form-1 td input{
+        margin: 11px 24px;
+    }
+    .sendme button{
+        height: 40px;
+        margin-top: 10px;
+    }
+    .info-icon{
+        margin-top: 30px;
+    }
+    .connect{
+        height: 35px;
+    }
+    .connect ul{
+        padding-top: 0;
+    }
+    .connect ul li{
+        margin: 0 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .connect ul li a{
+        padding:1px 7px;;
+    }
+}
