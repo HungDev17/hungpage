@@ -62,15 +62,19 @@
         width: 0;
     }
 }
-.myID a{
+.menu-bars{
+    display: flex;
+    list-style: none;
+}
+.menu-bars a{
     font-size: 18px;
     color: var(--grey-color);
     text-decoration: none;
     font-weight: 600;
     margin-left: 35px;
 }
-.myID a:hover,
-.myID a.active
+.menu-bars a:hover,
+.menu-bars a.active
 {
     color: var(--organe-rgb);
 }
