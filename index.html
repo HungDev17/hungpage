@@ -19,21 +19,35 @@
                 <div class="Main">
                     <div class="elip" style="top: -99px;"></div>
                     <header class="header">
-                        <a href="" class="logo">HungDev</a>
-                        <label class=" myID"  id="activeNav">
-                            <a href="#" class="btn-nav active" >Home</a>
-                            <a href="#about" class="btn-nav" >About</a>
-                            <a href="" class="btn-nav">Services</a>
-                            <a href="#project" class="btn-nav">Project</a>
-                            <a href="#contact" class="btn-nav">Contact</a>
+                        <a href="#home-info" class="logo">HungDev</a>
+                        <label for="check" class="header-menu " >
+                            <i class="fa fa-bars"></i>
                         </label>
+                        
                         <input type="checkbox" id="check">
-                        <label class="header-menu " for="check" >
-                                <i class="fa fa-bars"></i>
+                        <label for="check" >
+                            <ul class=" myID menu-bars"  id="activeNav">
+                                <li>
+                                    <a href="#" class="btn-nav active" >Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="btn-nav" >About</a>
+                                </li>
+                                <li> 
+                                    <a href="" class="btn-nav">Services</a>
+                                </li>
+                                <li>
+                                <a href="#project" class="btn-nav">Project</a>
+                                    
+                                </li>
+                                <li>
+                                <a href="#contact" class="btn-nav">Contact</a>
+                                </li>
+                            </ul>
                         </label>
                     </header>
                     <section class="home ">
-                        <div class="home-info">
+                        <div class="home-info" id="home-info">
                             <div class="home-content col-6">
                                 <h1>Hi, I'm a</h1>
                                 <h3 id="discoloration-text">Dev Front-End....</h3>
